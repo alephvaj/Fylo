@@ -1,0 +1,149 @@
+p{
+  font-family: "Open Sans";
+  font-weight:  400;
+}
+h3{
+  font-family: "Raleway";
+  font-weight:  400;
+}
+h5{
+  font-family: "Raleway";
+  font-weight:  700;
+}
+.section{
+  padding: 2%;
+}
+
+.texts{
+  padding-top: 6%;
+  text-align: left;
+}
+
+.top-img{
+  top: 0px;
+}
+
+/*Title*/
+#title{
+  padding: 4%
+}
+.emailbutton{
+  background-color: hsl(224, 93%, 58%);
+  color:  white;
+  margin-top: 2%
+}
+
+#description{
+  padding: 4%;
+  margin-bottom: 20%;
+}
+
+/*functionality*/
+#functionality{
+  padding: 4%;
+  padding-bottom: 12%;
+  background-color:  #f3f9fb;
+}
+.link-functionality{
+  color:hsl(170, 45%, 43%);
+  padding-bottom: 2%;
+}
+.testimonial{
+  background-color: white;
+  /* margin: auto; --alinear solo en tamañño movol*/
+  margin-top: 8%;
+  padding: 4%;
+  width: 420px;
+  border-radius: 20px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.testimonial-img{
+  border-radius: 60%;
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* acces */
+#acces{
+  padding: 12% 4%;
+  background-color: hsl(238, 22%, 44%);
+  color: white;
+}
+.acces-bottom{
+  background-color: hsl(224, 93%, 58%);
+  color:  white;
+}
+
+
+#media{
+  background-color: hsl(243, 87%, 12%);
+  color: white;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.logo-media{
+  filter: brightness(0) invert(100%);
+  padding-bottom: 8%;
+}
+.img-to-left{
+  /* width: 20%; */
+  float: left;
+  margin-right: 20px;
+}
+.link-media{
+  color:white;
+  padding-bottom: 2%;
+  text-decoration: none;
+}
+.link-media:hover{
+  color: hsl(224, 93%, 58%);
+}
+.network-logo{
+  color: white;
+  text-decoration: none;
+}
+.network-logo:hover{
+    color: hsl(224, 93%, 58%);
+}
+/*footer*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.col-md-12{
+  padding: 2% 0;
+}
+
+/*media*/
+@media (max-width: 974px) {
+  .texts{
+    text-align: center;
+  }
+  .top-img{
+    position: absolute;
+    display: block;
+    top: 0px;
+    padding: 10px;
+  }
+  /* Shitch column */
+  .switch-column{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .new-padding{
+    padding-top: 72%;
+  }
+  .top-img{
+    padding-top: 12%
+  }
+  .testimonial{
+    margin: auto;
+    margin-top: 4%
+  }
+
+}
